@@ -1,0 +1,13 @@
+/* 
+:root{
+    background-color: green;
+} */
+html{
+    font-size: 5px;
+}
+body{
+    font-size: 10px;
+}
+#para1{
+    font-size: 3rem;
+}

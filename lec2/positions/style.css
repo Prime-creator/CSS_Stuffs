@@ -1,0 +1,23 @@
+div{
+    height: 50px;
+    border: solid black 2px;
+    margin: 10px;
+}
+.color{
+    background-color: blue;
+}
+body{
+    position: relative;
+    top: 60px;
+}
+/* #seven{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+} */
+#two,
+#four,
+#seven{
+    position: sticky;
+    top: 40px;
+}

@@ -1,0 +1,32 @@
+h1{
+    color: brown;
+    background-color: blueviolet
+}
+p{
+    background-color: black;
+    color: beige;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.big{
+    font-size: 25px;
+}
+.small{
+    font-size: 15px;
+}
+#one{
+    background-color: aqua;
+}
+#two{
+    background-color: brown;
+}
+/*
+universal selector
+*{
+    background-color: aquamarine;
+}
+*/

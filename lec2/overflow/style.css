@@ -1,0 +1,25 @@
+/* .box{
+    background-color: aquamarine;
+    width: 120px;
+    height: 100px;
+    
+} */
+img{
+    float: left;
+    
+}
+.wrap{
+    border: 2px solid black;
+}
+p{
+    float: left;
+    padding-left: 100px;
+}
+br{
+    clear: left;
+}
+.wrap::after{
+    content: " ";
+    display: table;
+    clear: left;
+}

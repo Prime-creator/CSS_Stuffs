@@ -1,0 +1,32 @@
+body{
+    perspective: 800px;
+    /* perspective-origin: 0% 0%; */
+}
+.wrap{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    transition: transform;
+    transition-duration: 2s;
+    /* background-color: orange; */
+    transform-style: preserve-3d;
+}
+.wrap div{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.backside{
+    background: aqua;
+    transform:rotateY(180deg);
+}
+.frontside{
+    background: gold url('https://files.slack.com/files-pri/TMH5X03A5-FN4L0NB5E/vegeta.jpeg') no-repeat center;
+    z-index: 100;
+}
+
+.wrap:hover{
+    transform: rotateY(180deg);
+}

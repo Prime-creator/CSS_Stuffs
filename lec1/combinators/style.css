@@ -1,0 +1,12 @@
+space combinator
+ul ol{
+    color: blue;
+}
+ul ul{
+    color: hotpink;
+}
+ol>li{
+    background-color: black;
+    color: green;
+}
+/*this is general sibling*/

@@ -1,0 +1,21 @@
+.box{
+    font-size: 40px;
+    border: 2px solid black;
+    /* how to get two images at a time */
+    /* background-image: url('https://files.slack.com/files-pri/TMH5X03A5-FN4L0NB5E/vegeta.jpeg'),url('https://files.slack.com/files-pri/TMH5X03A5-FN4L888GM/dbz.jpg'); */
+    background-image: url('https://files.slack.com/files-pri/TMH5X03A5-FN4L888GM/dbz.jpg');
+    /* background-size: 350px 200px; */
+    background-size: cover;
+    background-repeat: no-repeat,no-repeat;
+    background-position: top left; 
+    /* background-position: 100px 200px; */
+    background-attachment: local;
+    color: black;
+    font-weight: 900px;
+    height: 500px;
+    overflow: scroll;
+    /* background: 
+    url('https://files.slack.com/files-pri/TMH5X03A5-FN4L0NB5E/vegeta.jpeg') blue no-repeat 200px 300px,
+    url('https://files.slack.com/files-pri/TMH5X03A5-FN4L888GM/dbz.jpg') blue no-repeat 200px 300px; */
+
+}

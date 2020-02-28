@@ -1,0 +1,23 @@
+.wrap{
+    height: 600px;
+    width: 700px;
+    background-color: orange;
+    display: flex;
+     /* flex-wrap: wrap;  */
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items; */
+}
+div{
+    /* height: 50px; */
+    width: 50px;
+    margin: 10px;
+    background-color: blue;
+}
+#hell{
+    flex-grow: 3;
+    align-self: center;
+}
+#bye{
+    flex-grow: 4;
+}
